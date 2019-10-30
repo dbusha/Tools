@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\source\Tools" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Tools" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ExtensionMethods" t="Include">
+          <e p="DatabaseExtensionMethods.cs" t="Include" />
+          <e p="StringExtensions.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Release" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="Tools.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Settings" t="Include">
+          <e p="OAuthSettings.cs" t="Include" />
+          <e p="SqliteSettings.cs" t="Include" />
+          <e p="SqliteSettingsBase.cs" t="Include" />
+        </e>
+        <e p="Tools.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Tools.sln" t="IncludeFlat" />
+      <e p="Tools.UI.WPF" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Converters" t="Include">
+          <e p="BoolConverters.cs" t="Include" />
+          <e p="VisibilityConverters.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Release" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="Tools.UI.WPF.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="PropertyHelper.cs" t="Include" />
+        <e p="Tools.UI.WPF.csproj" t="IncludeRecursive" />
+        <e p="ViewModelBase.cs" t="Include" />
+      </e>
+    </e>
+    <e p="C:\Users\dbusha\.Rider2019.2\config\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\dbusha\.Rider2019.2\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\dbusha\.Rider2019.2\config\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\dbusha\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\dbusha\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_Tools.683350194.00" t="ExcludeRecursive" />
+  </component>
+</project>
