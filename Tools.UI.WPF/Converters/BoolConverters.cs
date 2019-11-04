@@ -37,4 +37,6 @@ namespace Tools.UI.WPF.Converters
     public class BoolToBrush : BoolValueConverter<Brush> { }
     
     
+    public class BoolToString: BoolValueConverter<string> { }
+    
 }

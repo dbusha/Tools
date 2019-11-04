@@ -40,6 +40,17 @@ namespace Tools.UI.WPF
             return command ??= new DelegateCommand<T>(method, canDoAction);
         }
         
+        protected DelegateCommand CommandHelper(ref DelegateCommand command, Action method)
+        {
+            return command ??= new DelegateCommand(method);
+        }
+        
+        
+        protected DelegateCommand CommandHelper(ref DelegateCommand command, Action method, Func<bool> canDoAction)
+        {
+            return command ??= new DelegateCommand(method, canDoAction);
+        }
+        
         
         protected DelegateCommand<T> CommandHelper<T>(ref DelegateCommand<T> command, Action<T> method)
         {
