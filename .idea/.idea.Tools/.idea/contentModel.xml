@@ -4,6 +4,7 @@
     <e p="C:\source\Tools" t="IncludeFlat">
       <e p="packages" t="ExcludeRecursive" />
       <e p="Tools" t="IncludeRecursive">
+        <e p="AutoLock.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="ExtensionMethods" t="Include">
           <e p="DatabaseExtensionMethods.cs" t="Include" />
@@ -42,10 +43,10 @@
         <e p="ViewModelBase.cs" t="Include" />
       </e>
     </e>
-    <e p="C:\Users\dbusha\.Rider2019.2\config\consoles\db" t="IncludeRecursive" />
-    <e p="C:\Users\dbusha\.Rider2019.2\config\extensions" t="IncludeRecursive" />
-    <e p="C:\Users\dbusha\.Rider2019.2\config\scratches" t="IncludeRecursive" />
-    <e p="C:\Users\dbusha\.Rider2019.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\dbusha\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_Tools.683350194.00" t="ExcludeRecursive" />
+    <e p="C:\Users\dbusha\.Rider2019.3\config\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\dbusha\.Rider2019.3\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\dbusha\.Rider2019.3\config\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\dbusha\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\dbusha\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Tools.683350194.00" t="ExcludeRecursive" />
   </component>
 </project>

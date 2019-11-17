@@ -13,7 +13,13 @@ namespace Tools.ExtensionMethods
 
 
         public static bool IsNullOrWhitespace(this string value1) => string.IsNullOrWhiteSpace(value1);
-            
+
+
+        public static bool StartsWithCI(this string value, string prefix)
+        {
+            return value != null && value.StartsWith(prefix, StringComparison.OrdinalIgnoreCase);
+        }
+        
             
         private static bool IsEqualToImpl(this string value1, string value2, StringComparison stringComparer)
         {
